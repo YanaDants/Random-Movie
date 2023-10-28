@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Random</string>
+    <string name="next">Next film</string>
+    <string name="reset">Reset</string>
+    <string-array name="films">
+        <item>Iron man</item>
+        <item>Batman</item>
+        <item>Roy</item>
+        <item>Alice in Wonderlend</item>
+        <item>Black Pantera</item>
+        <item>Astral</item>
+        <item>Deadpool</item>
+        <item>Venom</item>
+        <item>The Holliday</item>
+        <item>Forrest Gump</item>
+    </string-array>
+</resources>
