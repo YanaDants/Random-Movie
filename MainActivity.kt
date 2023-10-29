@@ -1,4 +1,4 @@
-package com.example.random
+package com.example.randommovie
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,13 +7,15 @@ import android.widget.Toast
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    lateinit var films : Array<String>;
+
+    lateinit var films: Array<String>
     val r = Random()
-    var seensfilm  = emptyArray<Int>()
+    var seensfilm = emptyArray<Int>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        films = resources.getStringArray(R.array.films)
+        films = resources.getStringArray(R.array.movies)
         for(i in films.indices){
             seensfilm += 0
         }
@@ -35,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
     fun onClearClick(view: android.view.View) {
         for(i in films.indices){
             seensfilm[i] = 0
