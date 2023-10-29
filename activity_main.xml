@@ -5,27 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <TextView
-        android:textSize="30sp"
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/title" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
-        android:onClick="onNextClick"
         android:textSize="30sp"
-        />
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <Button
-        android:text="@string/reset"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onNextClick"
+        android:text="@string/next"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClearClick"
+        android:text="@string/reset"
         android:textSize="30sp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </LinearLayout>
