@@ -3,15 +3,15 @@
     <string name="next">Next film</string>
     <string name="reset">Reset</string>
     <string-array name="films">
-        <item>Iron man</item>
-        <item>Batman</item>
+        <item>The Shawshank Redemption</item>
+        <item>The Blind Side </item>
         <item>Roy</item>
         <item>Alice in Wonderlend</item>
         <item>Black Pantera</item>
         <item>Astral</item>
         <item>Deadpool</item>
-        <item>Venom</item>
+        <item>A Beautiful Mind</item>
         <item>The Holliday</item>
-        <item>Forrest Gump</item>
+        <item>Whiplash</item>
     </string-array>
 </resources>
