@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">Random</string>
-    <string name="next">Next film</string>
+    <string name="app_name">RandomMovie</string>
+    <string name="next">Next movie</string>
     <string name="reset">Reset</string>
-    <string-array name="films">
-        <item>The Shawshank Redemption</item>
-        <item>The Blind Side </item>
-        <item>Roy</item>
-        <item>Alice in Wonderlend</item>
-        <item>Black Pantera</item>
-        <item>Astral</item>
-        <item>Deadpool</item>
-        <item>A Beautiful Mind</item>
-        <item>The Holliday</item>
-        <item>Whiplash</item>
+    <string-array name="movies">
+        <item>The Godfather</item>
+        <item>Titanic </item>
+        <item>Forrest Gump</item>
+        <item>Barbie</item>
+        <item>Avengers</item>
+        <item>Avatar</item>
+        <item>Spiderman</item>
+        <item>Scream</item>
+        <item>Twilight</item>
+        <item>Harry Potter</item>
     </string-array>
 </resources>
